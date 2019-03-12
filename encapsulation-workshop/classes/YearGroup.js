@@ -1,8 +1,20 @@
+class YearGroup{
+
+    constructor(year, headOfYear){
+        this.year = year;
+        this.headOfYear = headOfYear;
+    }
 
 
+    getYear() {
+        return this.year;
+    };
+  
+    getHeadOfYear() {
+          return this.headOfYear;
+    };
 
-// class YearGroup {
-//     constructor(){
+    
+}
 
-//     }
-// }
+module.exports = YearGroup;
